@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="loading-screen" id="loading-screen">
+      <div class="spinner"></div>
+      <div id="loading-text">Generating quiz...</div>
+    </div>
+    <div class="container">
+        <div id="question"></div>
+        <div id = "option" class="options-grid">
+            <button id = "btn1" class="option"></button>
+            <button id = "btn2" class="option"></button>
+            <button id = "btn3" class="option"></button>
+            <button id = "btn4" class="option"></button>
+        </div>
+        <div class="results">
+            Correct: <span id="correctCount">0</span> Incorrect: <span id="incorrectCount">0</span>
+        </div>
+    </div>
+    <script type="importmap">
+        {
+          "imports": {
+            "@google/generative-ai": "https://esm.run/@google/generative-ai"
+          }
+        }
+      </script>
+
+    <script type="module" src="scripts.js"></script>
+</body>
+</html>

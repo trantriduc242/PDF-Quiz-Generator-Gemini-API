@@ -1,0 +1,26 @@
+{
+  "node": true,
+  "type": "module",
+  "imports": {
+    "@google/generative-ai": "https://esm.run/@google/generative-ai"
+  },
+  "name": "vocab-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.16.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "pdfjs-dist": "^4.5.136"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
