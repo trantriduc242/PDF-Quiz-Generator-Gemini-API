@@ -11,8 +11,3 @@ An interactive learning tool powered by Gemini-AI for generating quizzes and fla
 **🛠️ Tech Stack:**  
 `JavaScript`, `HTML`, `CSS`, `Gemini-AI API`, `PDF.js`
 
-
-## 📫 Contact
-
-If you’d like to collaborate, discuss a project, or just geek out about AI and embedded systems, feel free to reach out!
-
