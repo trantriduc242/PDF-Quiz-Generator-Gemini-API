@@ -1,5 +1,5 @@
 
-### 1. 🎓 AI-Powered Flashcard Learning System – **Quizki**
+### 🎓 AI-Powered Flashcard Learning System – **Quizki**
 An interactive learning tool powered by Gemini-AI for generating quizzes and flashcards from study material.
 
 **🔧 Features:**
